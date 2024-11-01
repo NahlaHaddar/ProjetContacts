@@ -4,11 +4,11 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/BDContacts?createDatabaseIfNotExist=true
     username: root
-    password: nahla
+    password: 
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
   servlet:
     multipart:
       enabled: true
